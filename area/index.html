@@ -12,7 +12,7 @@
     </label>
     <br>
     <label>
-        Height: <input type="number" min="1" value="6" id="height"> Feet
+        Height: <input type="number" min="1" value="8" id="height"> Feet
     </label>
     <button id="calculate">Calculate!!!</button>
     <p>
@@ -20,7 +20,14 @@
     </p>
 </body>
 <script>
+
+    const heightElement = document.getElementsById("heighttag");
+    const heightElement = document.getElementById("width.tag");
+
     function onClick(){
+        const w = Number(width.value);
+        const h = Number(height.value);
+        const Result = area(w, h);
         output.innerText = area(width.value, height.value);
     }
     calculate.addEventListener("click", onClick);

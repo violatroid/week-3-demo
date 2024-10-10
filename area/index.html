@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Area</h1>
+    <label>
+        Width: <input type="number" min="1" value="12" id="width"> Feet
+    </label>
+    <br>
+    <label>
+        Height: <input type="number" min="1" value="6" id="height"> Feet
+    </label>
+    <button id="calculate">Calculate!!!</button>
+    <p>
+        Result: <span id="output">?</span>
+    </p>
+</body>
+<script>
+    function onClick(){
+        output.innerText = area(width.value, height.value);
+    }
+    calculate.addEventListener("click", onClick);
+</script>
+</html>

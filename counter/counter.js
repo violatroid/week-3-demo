@@ -3,7 +3,7 @@ componentCounter = 0
 function moveUp(){
     componentCounter++;
 }
-function moveUp(){
+function moveDown(){
     componentCounter--;
 }
 function getCounter(){

@@ -24,10 +24,11 @@ function calc (a, b, operation){
         result = add(a,b);
     } else if ("subtract" == operation){
         result = subtract(a,b);
-    } else if ("multiply" == operation)
-        result = multiply(a,b);{
-
-        }
+    } else if ("multiply" == operation){
+        result = multiply(a,b);
+    } else if ("divide" == operation){
+        result = divide(a,b);
+    }
     return result;
 }
 

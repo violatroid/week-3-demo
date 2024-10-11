@@ -10,15 +10,21 @@
 // > greater than 
 // < less than 
 
-height = 60
-minimum = 55
+//inputs 
+let height = 50;
+let minimum = 55;
 
-console.log ("START"); // unconditional - always
+//precalculating the boolean expression into variable
+let canRide = height >= minimum; // no/false vs yes/true
 
-if (height >= minimum){
-    console.log ("Wooooo!!!!!!!!");
+console.log("START") //unconditional - always
+
+if(canRide){
+    //expression was true
+    console.log("WOOOOOOOOOO!!!!"); sometimes depending on the condition
 }else{
-    console.log ("watching the fun");
+    //expression was false
+    console.log("sadly watching the fun"); sometimes depending on the condition
 }
 
-console.log("END"); // unconditional - always 
+console.log("END"); //unconditional - always
